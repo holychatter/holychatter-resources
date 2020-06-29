@@ -326,14 +326,6 @@ h1 {
   margin-right: var(--hc-var-right-space);
 }
 
-.hc-onTopRight-mobile
-{
-  position: absolute;
-  z-index:1;
-  top: 15px;
-  right: 15px;
-}
-
 .hc-bold {
   font-weight: bold;
 }
