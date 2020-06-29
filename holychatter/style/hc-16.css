@@ -461,6 +461,10 @@ h1 {
   padding: 15px;
 }
 
+.hc-small-padding-top {
+  padding-top: 15px;
+}
+
 .hc-move-up-animation {
   position: relative;
   top: 0;
