@@ -381,6 +381,10 @@ h1 {
   border-radius: 10px;
 }
 
+.hc-inline-flex {
+  display: inline-flex;
+}
+
 .hc-cursor-pointer {
   cursor: pointer;
 }
@@ -451,4 +455,17 @@ h1 {
 
 .hc-padding {
   padding: 20px;
+}
+
+.hc-small-padding {
+  padding: 15px;
+}
+
+.hc-move-up-animation {
+  position: relative;
+  top: 0;
+  transition: top ease 0.1s;
+}
+.hc-move-up-animation:hover {
+  top: -5px;
 }
