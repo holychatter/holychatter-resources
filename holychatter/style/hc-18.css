@@ -12,7 +12,23 @@
   --hc-chat-bottom-height: 68px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 650px) {
+.hc-not-very-short-screen {
+    display: none;
+  }
+.hc-intermediary-screen {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 651px) {
+.hc-very-short-screen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
 :root {
   --hc-folder-menu-width: 0px;
   --hc-chat-left-space: 0%;
@@ -23,8 +39,12 @@
     display: none;
   }
 }
-@media screen and (min-width: 901px) {
+
+@media screen and (min-width: 951px) {
 .hc-short-screen {
+    display: none;
+  }
+.hc-intermediary-screen {
     display: none;
   }
 }
