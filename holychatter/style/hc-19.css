@@ -490,3 +490,10 @@ h1 {
 .hc-move-up-animation:hover {
   top: -5px;
 }
+
+.hc-left-content {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+}
+
