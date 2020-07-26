@@ -12,6 +12,20 @@
   --hc-chat-bottom-height: 68px;
 }
 
+@media screen and (max-width: 610px) {
+.hc-not-smartphone-screen {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 611px) {
+.hc-smartphone-screen {
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 850px) {
 .hc-not-very-short-screen {
     display: none;
