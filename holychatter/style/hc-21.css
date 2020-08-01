@@ -1,7 +1,7 @@
 :root {
   --hc-var-right-space: 20px;
   --hc-title-height: 55px;
-  --hc-folder-menu-width: 240px;
+  --hc-folder-menu-width: 190px;
   --hc-chat-title-height: 65px;
 
   --hc-chat-border-space: 0%;
@@ -12,18 +12,153 @@
   --hc-chat-bottom-height: 68px;
 }
 
-@media screen and (max-width: 610px) {
-.hc-not-smartphone-screen {
-    display: none;
-  }
+
+.hc-width-default-inside-bubble { width: 560px; }
+
+
+@media screen and (min-width: 1451px) {
+.hc-width-content-with-refs { width: 850px; }
+.hc-width-content-without-refs { width: 950px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1401px)  and (max-width: 1450px) {
+.hc-width-content-with-refs { width: 800px; }
+.hc-width-content-without-refs { width: 950px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1351px)  and (max-width: 1400px) {
+.hc-width-content-with-refs { width: 750px; }
+.hc-width-content-without-refs { width: 950px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1301px)  and (max-width: 1350px) {
+.hc-width-content-with-refs { width: 700px; }
+.hc-width-content-without-refs { width: 950px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1251px) and (max-width: 1300px) {
+.hc-width-content-with-refs { width: 650px; }
+.hc-width-content-without-refs { width: 950px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1250px) {
+.hc-width-content-with-refs { width: 600px; }
+.hc-width-content-without-refs { width: 950px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1200px) {
+.hc-width-content-with-refs { width: 550px; }
+.hc-width-content-without-refs { width: 900px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1150px) {
+.hc-width-content-with-refs { width: 500px; }
+.hc-width-content-without-refs { width: 850px; }
+.hc-width-chat-inside-bubble { width: 690px; }
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1100px) {
+.hc-width-content-with-refs { width: 650px; }
+.hc-width-content-without-refs { width: 1000px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1050px) {
+.hc-width-content-with-refs { width: 600px; }
+.hc-width-content-without-refs { width: 950px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1000px) {
+.hc-width-content-with-refs { width: 550px; }
+.hc-width-content-without-refs { width: 900px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 901px) and (max-width: 950px) {
+.hc-width-content-with-refs { width: 500px; }
+.hc-width-content-without-refs { width: 850px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 851px) and (max-width: 900px) {
+.hc-width-content-with-refs { width: 450px; }
+.hc-width-content-without-refs { width: 800px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 801px) and (max-width: 850px) {
+.hc-width-content-with-refs { width: 750px; }
+.hc-width-content-without-refs { width: 750px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+}
+
+@media screen and (min-width: 751px) and (max-width: 800px) {
+.hc-width-content-with-refs { width: 700px; }
+.hc-width-content-without-refs { width: 700px; }
+.hc-width-chat-inside-bubble { width: 680px; }
+}
+
+@media screen and (min-width: 701px) and (max-width: 750px) {
+.hc-width-content-with-refs { width: 650px; }
+.hc-width-content-without-refs { width: 650px; }
+.hc-width-chat-inside-bubble { width: 630px; }
+}
+
+@media screen and (min-width: 651px) and (max-width: 700px) {
+.hc-width-content-with-refs { width: 600px; }
+.hc-width-content-without-refs { width: 600px; }
+.hc-width-chat-inside-bubble { width: 580px; }
+}
+
+@media screen and (min-width: 601px) and (max-width: 650px) {
+.hc-width-content-with-refs { width: 550px; }
+.hc-width-content-without-refs { width: 550px; }
+.hc-width-chat-inside-bubble { width: 530px; }
+}
+
+@media screen and (min-width: 551px) and (max-width: 600px) {
+.hc-width-content-with-refs { width: 500px; }
+.hc-width-content-without-refs { width: 500px; }
+.hc-width-chat-inside-bubble { width: 480px; }
+}
+
+@media screen and (min-width: 501px) and (max-width: 550px) {
+.hc-width-content-with-refs { width: 450px; }
+.hc-width-content-without-refs { width: 450px; }
+.hc-width-chat-inside-bubble { width: 430px; }
+}
+
+@media screen and (min-width: 451px) and (max-width: 500px) {
+.hc-width-content-with-refs { width: 400px; }
+.hc-width-content-without-refs { width: 400px; }
+.hc-width-chat-inside-bubble { width: 380px; }
+}
+
+@media screen and (min-width: 401px) and (max-width: 450px) {
+.hc-width-content-with-refs { width: 350px; }
+.hc-width-content-without-refs { width: 350px; }
+.hc-width-chat-inside-bubble { width: 330px; }
+}
+
+@media only screen and (max-width: 400px) {
+.hc-width-content-with-refs { width: 300px; }
+.hc-width-content-without-refs { width: 300px; }
+.hc-width-chat-inside-bubble { width: 280px; }
 }
 
 
-@media screen and (min-width: 611px) {
-.hc-smartphone-screen {
-    display: none;
-  }
-}
+
+
+
+
 
 
 @media screen and (max-width: 850px) {
