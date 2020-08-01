@@ -103,55 +103,55 @@
 @media screen and (min-width: 751px) and (max-width: 800px) {
 .hc-width-content-with-refs { width: 700px; }
 .hc-width-content-without-refs { width: 700px; }
-.hc-width-chat-inside-bubble { width: 680px; }
+.hc-width-chat-inside-bubble { width: 670px; }
 }
 
 @media screen and (min-width: 701px) and (max-width: 750px) {
 .hc-width-content-with-refs { width: 650px; }
 .hc-width-content-without-refs { width: 650px; }
-.hc-width-chat-inside-bubble { width: 630px; }
+.hc-width-chat-inside-bubble { width: 620px; }
 }
 
 @media screen and (min-width: 651px) and (max-width: 700px) {
 .hc-width-content-with-refs { width: 600px; }
 .hc-width-content-without-refs { width: 600px; }
-.hc-width-chat-inside-bubble { width: 580px; }
+.hc-width-chat-inside-bubble { width: 570px; }
 }
 
 @media screen and (min-width: 601px) and (max-width: 650px) {
 .hc-width-content-with-refs { width: 550px; }
 .hc-width-content-without-refs { width: 550px; }
-.hc-width-chat-inside-bubble { width: 530px; }
+.hc-width-chat-inside-bubble { width: 520px; }
 }
 
 @media screen and (min-width: 551px) and (max-width: 600px) {
 .hc-width-content-with-refs { width: 500px; }
 .hc-width-content-without-refs { width: 500px; }
-.hc-width-chat-inside-bubble { width: 480px; }
+.hc-width-chat-inside-bubble { width: 470px; }
 }
 
 @media screen and (min-width: 501px) and (max-width: 550px) {
 .hc-width-content-with-refs { width: 450px; }
 .hc-width-content-without-refs { width: 450px; }
-.hc-width-chat-inside-bubble { width: 430px; }
+.hc-width-chat-inside-bubble { width: 420px; }
 }
 
 @media screen and (min-width: 451px) and (max-width: 500px) {
 .hc-width-content-with-refs { width: 400px; }
 .hc-width-content-without-refs { width: 400px; }
-.hc-width-chat-inside-bubble { width: 380px; }
+.hc-width-chat-inside-bubble { width: 370px; }
 }
 
 @media screen and (min-width: 401px) and (max-width: 450px) {
 .hc-width-content-with-refs { width: 350px; }
 .hc-width-content-without-refs { width: 350px; }
-.hc-width-chat-inside-bubble { width: 330px; }
+.hc-width-chat-inside-bubble { width: 320px; }
 }
 
 @media only screen and (max-width: 400px) {
 .hc-width-content-with-refs { width: 300px; }
 .hc-width-content-without-refs { width: 300px; }
-.hc-width-chat-inside-bubble { width: 280px; }
+.hc-width-chat-inside-bubble { width: 270px; }
 }
 
 
