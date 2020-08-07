@@ -663,3 +663,9 @@ h1 {
     z-index: -3;
 }
 
+.hc-shine-background
+{
+  background-image: url('/resources/holychatter/images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
