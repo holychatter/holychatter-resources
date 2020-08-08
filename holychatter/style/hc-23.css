@@ -327,6 +327,7 @@ h1 {
   bottom: 0;
   max-height: 100%;
   width: 100%;
+  background-color: transparent;
 }
 
 .hc-content-content-wrapper {
@@ -668,4 +669,23 @@ h1 {
   background-image: url('/resources/holychatter/images/background.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hc-heart-background
+{
+  background-image: url('/resources/holychatter/images/heart.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hc-wood-background
+{
+  background-image: url('/resources/holychatter/images/wood.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hc-white-background
+{
+  background-color: white;
 }
