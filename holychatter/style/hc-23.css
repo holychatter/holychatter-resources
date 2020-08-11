@@ -647,6 +647,11 @@ h1 {
   width: auto;
 }
 
+.hc-default-content-width {
+  width: 80%;
+  margin-left: 10%;
+}
+
 
 .hc-whole-page
 {
@@ -664,13 +669,6 @@ h1 {
     z-index: -3;
 }
 
-.hc-shine-background
-{
-  background-image: url('/resources/holychatter/images/background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .hc-heart-background
 {
   background-image: url('/resources/holychatter/images/heart.png');
@@ -678,12 +676,21 @@ h1 {
   background-size: cover;
 }
 
-.hc-wood-background
+.hc-banner-background
 {
-  background-image: url('/resources/holychatter/images/wood.png');
+  background-image: url('/resources/holychatter/images/banner_background.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.hc-banner-main
+{
+  background-image: url('/resources/holychatter/images/banner_main.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 .hc-white-background
 {
