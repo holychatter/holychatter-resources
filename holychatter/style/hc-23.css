@@ -13,145 +13,190 @@
 }
 
 
+.hc-top-bar-sides-css { width: 15%; padding-left:30px; padding-right:30px; }
+.hc-top-bar-center-css { width: 70%; padding-left:30px; padding-right:30px; }
 .hc-width-default-inside-bubble { width: 560px; }
+.hc-default-content-table-wrapper { width: 80%; margin-left: 10%; }
+.hc-main-logo-height { height: 55px; }
+.hc-content-text-big
+{
+  font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
+  font-size:25px;
+  line-height:36px;
+  max-width:730px;
+  margin:0 auto;
+  font-weight:400
+}
+.hc-content-text
+{
+  font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
+  font-size:17px;
+  line-height:27px;
+  max-width:730px;
+  margin:0 auto;
+  font-weight:270
+}
 
 
 @media screen and (min-width: 1451px) {
 .hc-width-content-with-refs { width: 850px; }
 .hc-width-content-without-refs { width: 950px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1401px)  and (max-width: 1450px) {
 .hc-width-content-with-refs { width: 800px; }
 .hc-width-content-without-refs { width: 950px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1351px)  and (max-width: 1400px) {
 .hc-width-content-with-refs { width: 750px; }
 .hc-width-content-without-refs { width: 950px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1301px)  and (max-width: 1350px) {
 .hc-width-content-with-refs { width: 700px; }
 .hc-width-content-without-refs { width: 950px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1251px) and (max-width: 1300px) {
 .hc-width-content-with-refs { width: 650px; }
 .hc-width-content-without-refs { width: 950px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1250px) {
 .hc-width-content-with-refs { width: 600px; }
 .hc-width-content-without-refs { width: 950px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1151px) and (max-width: 1200px) {
 .hc-width-content-with-refs { width: 550px; }
 .hc-width-content-without-refs { width: 900px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1150px) {
 .hc-width-content-with-refs { width: 500px; }
 .hc-width-content-without-refs { width: 850px; }
-.hc-width-chat-inside-bubble { width: 690px; }
+.hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1051px) and (max-width: 1100px) {
-.hc-width-content-with-refs { width: 650px; }
+.hc-width-content-with-refs { width: 1000px; }
 .hc-width-content-without-refs { width: 1000px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1050px) {
-.hc-width-content-with-refs { width: 600px; }
+.hc-width-content-with-refs { width: 950px; }
 .hc-width-content-without-refs { width: 950px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 951px) and (max-width: 1000px) {
-.hc-width-content-with-refs { width: 550px; }
+.hc-width-content-with-refs { width: 900px; }
 .hc-width-content-without-refs { width: 900px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 901px) and (max-width: 950px) {
-.hc-width-content-with-refs { width: 500px; }
+.hc-width-content-with-refs { width: 850px; }
 .hc-width-content-without-refs { width: 850px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 851px) and (max-width: 900px) {
-.hc-width-content-with-refs { width: 450px; }
+.hc-width-content-with-refs { width: 800px; }
 .hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 801px) and (max-width: 850px) {
 .hc-width-content-with-refs { width: 750px; }
 .hc-width-content-without-refs { width: 750px; }
 .hc-width-chat-inside-bubble { width: 710px; }
+.hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 751px) and (max-width: 800px) {
 .hc-width-content-with-refs { width: 700px; }
 .hc-width-content-without-refs { width: 700px; }
 .hc-width-chat-inside-bubble { width: 670px; }
+.hc-width-chat-recommendation-max-width { max-width: 670px; }
 }
 
 @media screen and (min-width: 701px) and (max-width: 750px) {
 .hc-width-content-with-refs { width: 650px; }
 .hc-width-content-without-refs { width: 650px; }
 .hc-width-chat-inside-bubble { width: 620px; }
+.hc-width-chat-recommendation-max-width { max-width: 620px; }
 }
 
 @media screen and (min-width: 651px) and (max-width: 700px) {
 .hc-width-content-with-refs { width: 600px; }
 .hc-width-content-without-refs { width: 600px; }
 .hc-width-chat-inside-bubble { width: 570px; }
+.hc-width-chat-recommendation-max-width { max-width: 570px; }
 }
 
 @media screen and (min-width: 601px) and (max-width: 650px) {
 .hc-width-content-with-refs { width: 550px; }
 .hc-width-content-without-refs { width: 550px; }
 .hc-width-chat-inside-bubble { width: 520px; }
+.hc-width-chat-recommendation-max-width { max-width: 520px; }
 }
 
 @media screen and (min-width: 551px) and (max-width: 600px) {
 .hc-width-content-with-refs { width: 500px; }
 .hc-width-content-without-refs { width: 500px; }
 .hc-width-chat-inside-bubble { width: 470px; }
+.hc-width-chat-recommendation-max-width { max-width: 470px; }
 }
 
 @media screen and (min-width: 501px) and (max-width: 550px) {
 .hc-width-content-with-refs { width: 450px; }
 .hc-width-content-without-refs { width: 450px; }
 .hc-width-chat-inside-bubble { width: 420px; }
+.hc-width-chat-recommendation-max-width { max-width: 420px; }
 }
 
 @media screen and (min-width: 451px) and (max-width: 500px) {
 .hc-width-content-with-refs { width: 400px; }
 .hc-width-content-without-refs { width: 400px; }
 .hc-width-chat-inside-bubble { width: 370px; }
+.hc-width-chat-recommendation-max-width { max-width: 370px; }
 }
 
 @media screen and (min-width: 401px) and (max-width: 450px) {
 .hc-width-content-with-refs { width: 350px; }
 .hc-width-content-without-refs { width: 350px; }
 .hc-width-chat-inside-bubble { width: 320px; }
+.hc-width-chat-recommendation-max-width { max-width: 320px; }
 }
 
 @media only screen and (max-width: 400px) {
 .hc-width-content-with-refs { width: 300px; }
 .hc-width-content-without-refs { width: 300px; }
 .hc-width-chat-inside-bubble { width: 270px; }
+.hc-width-chat-recommendation-max-width { max-width: 270px; }
 }
 
 
@@ -168,8 +213,25 @@
 .hc-intermediary-screen {
     display: none;
   }
+.hc-top-bar-sides-css { width: 50%; padding-left:30px; padding-right:30px; }
+.hc-top-bar-center-css { width: 0%; padding-left:0px; padding-right:0px; }
+.hc-main-logo-height { height: 25px; }
+.hc-content-text
+{
+  font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
+  font-size:15px;
+  line-height:20px;
+  max-width:730px;
+  margin:0 auto;
+  font-weight:200
 }
 
+}
+
+
+@media screen and (min-width: 851px) and (max-width: 1100px) {
+.hc-main-logo-height { height: 40px; }
+}
 
 @media screen and (min-width: 851px) {
 .hc-very-short-screen {
@@ -187,6 +249,9 @@
 .hc-long-screen {
     display: none;
   }
+.hc-default-content-table-wrapper { width: 100%; margin-left: 0%; }
+.hc-message-viewer-width { width: 100%; }
+.hc-reference-viewer-width { width: 0%; }
 }
 
 @media screen and (min-width: 1101px) {
@@ -196,6 +261,8 @@
 .hc-intermediary-screen {
     display: none;
   }
+.hc-message-viewer-width { width: 50%; }
+.hc-reference-viewer-width { width: 50%; }
 }
 
 html, body {
@@ -211,9 +278,8 @@ h1 {
   text-align: center;
   color: red;
   font-size: var(--hc-h1-font-size);
-  text-overflow: clip;
-  overflow: hidden;
-  white-space: nowrap;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .breadcrumb {
@@ -225,9 +291,6 @@ h1 {
   list-style: none;
   border-radius: 4px;
   max-height: 100%;
-  text-overflow: clip;
-  overflow: hidden;
-  white-space: nowrap;
   box-sizing: border-box;
 }
 
@@ -646,12 +709,6 @@ h1 {
   text-align: left;
   width: auto;
 }
-
-.hc-default-content-width {
-  width: 80%;
-  margin-left: 10%;
-}
-
 
 .hc-whole-page
 {
