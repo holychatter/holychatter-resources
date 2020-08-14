@@ -731,6 +731,7 @@ h1 {
   background-image: url('/resources/holychatter/images/heart.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hc-banner-background
@@ -740,9 +741,17 @@ h1 {
   background-size: cover;
 }
 
-.hc-banner-main
+.hc-banner-bienvenue
 {
-  background-image: url('/resources/holychatter/images/banner_main.png');
+  background-image: url('/resources/holychatter/images/bienvenue.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hc-banner-welcome
+{
+  background-image: url('/resources/holychatter/images/welcome.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
