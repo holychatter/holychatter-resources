@@ -42,7 +42,7 @@
   line-height:27px;
   max-width:730px;
   margin:0 auto;
-  font-weight:270;
+  font-weight:400;
 }
 
 
@@ -228,11 +228,12 @@
 .hc-content-text
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
+  color: #22292f;
   font-size:15px;
   line-height:20px;
   max-width:730px;
   margin:0 auto;
-  font-weight:200
+  font-weight:400;
 }
 
 }
