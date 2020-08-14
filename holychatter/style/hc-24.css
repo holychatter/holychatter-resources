@@ -19,23 +19,30 @@
 .hc-default-content-table-wrapper { width: 80%; margin-left: 10%; }
 .hc-main-logo-height { height: 55px; }
 .hc-main-banner-height { height: 500px; }
+.hc-margin-left-nav-collapsed { }
+@media screen and (max-width: 767px) {
+  .hc-margin-left-nav-collapsed { padding-left:15px; }
+}
+
 .hc-content-text-big
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
+  color: #22292f;
   font-size:25px;
   line-height:36px;
   max-width:730px;
   margin:0 auto;
-  font-weight:400
+  font-weight:400;
 }
 .hc-content-text
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
+  color: #22292f;
   font-size:17px;
   line-height:27px;
   max-width:730px;
   margin:0 auto;
-  font-weight:270
+  font-weight:270;
 }
 
 
