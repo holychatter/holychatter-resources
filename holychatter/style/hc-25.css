@@ -27,7 +27,6 @@
 .hc-content-text-big
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
-  color: #22292f;
   font-size:25px;
   line-height:36px;
   max-width:730px;
@@ -37,7 +36,6 @@
 .hc-content-text
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
-  color: #22292f;
   font-size:17px;
   line-height:27px;
   max-width:730px;
@@ -228,7 +226,6 @@
 .hc-content-text
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
-  color: #22292f;
   font-size:15px;
   line-height:20px;
   max-width:730px;
