@@ -19,6 +19,16 @@
 .hc-default-content-table-wrapper { width: 80%; margin-left: 10%; }
 .hc-main-logo-height { height: 55px; }
 .hc-main-banner-height { height: 500px; }
+.hc-left-a-search { padding-left: 250px; }
+
+.hc-big-button-nomal-height { height:150px; }
+.hc-big-button-nomal-width { width:270px; }
+.hc-big-button-search-height { height:135px; }
+.hc-big-button-search-width { width:243px; }
+.hc-big-button-small-height { height:75px; }
+.hc-big-button-small-width { width:63px; }
+.hc-big-button-text-at-right-padding { padding: 15px; }
+
 .hc-margin-left-nav-collapsed { }
 @media screen and (max-width: 767px) {
   .hc-margin-left-nav-collapsed { padding-left:15px; }
@@ -221,8 +231,12 @@
   }
 .hc-top-bar-sides-css { width: 50%; padding-left:30px; padding-right:30px; }
 .hc-top-bar-center-css { width: 0%; padding-left:0px; padding-right:0px; }
-.hc-main-logo-height { height: 35px; }
-.hc-main-banner-height { height: 300px; }
+.hc-main-logo-height { height: 40px; }
+.hc-main-banner-height { height: 250px; }
+.hc-left-a-search { padding-left: 10px; }
+.hc-big-button-search-height { height:75px; }
+.hc-big-button-search-width { width:135px; }
+.hc-big-button-text-at-right-padding { padding-left: 15px; padding-right: 15px; padding-bottom: 15px; padding-top:0px; }
 .hc-content-text
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
@@ -238,6 +252,11 @@
 
 @media screen and (min-width: 851px) and (max-width: 1100px) {
 .hc-main-logo-height { height: 45px; }
+.hc-main-banner-height { height: 300px; }
+.hc-left-a-search { padding-left: 100px; }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1450px) {
 .hc-main-banner-height { height: 400px; }
 }
 
