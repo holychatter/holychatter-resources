@@ -21,6 +21,8 @@
 .hc-main-banner-height { height: 500px; }
 .hc-left-a-search { padding-left: 250px; }
 
+.hc-big-button-chat-height { height:150px; }
+.hc-big-button-chat-width { width:300px; }
 .hc-big-button-nomal-height { height:150px; }
 .hc-big-button-nomal-width { width:270px; }
 .hc-big-button-search-height { height:135px; }
@@ -559,7 +561,6 @@ h1 {
   text-align: center;
 }
 
-
 .hc-centered {
   position: fixed;
   top: 50%;
@@ -736,6 +737,7 @@ h1 {
   text-align: left;
   width: auto;
 }
+
 
 .hc-whole-page
 {
