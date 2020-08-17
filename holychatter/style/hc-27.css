@@ -2,7 +2,6 @@
   --hc-var-right-space: 20px;
   --hc-title-height: 55px;
   --hc-folder-menu-width: 190px;
-  --hc-chat-title-height: 65px;
 
   --hc-chat-border-space: 0%;
   --hc-chat-left-space: 30%;
@@ -20,9 +19,10 @@
 .hc-main-logo-height { height: 55px; }
 .hc-main-banner-height { height: 500px; }
 .hc-left-a-search { padding-left: 250px; }
+.hc-options-padding-top { padding-top: 13px; }
 
 .hc-big-button-chat-height { height:150px; }
-.hc-big-button-chat-width { width:300px; }
+.hc-big-button-chat-width { width:270px; }
 .hc-big-button-nomal-height { height:150px; }
 .hc-big-button-nomal-width { width:270px; }
 .hc-big-button-search-height { height:135px; }
@@ -234,6 +234,7 @@
 .hc-big-button-search-height { height:75px; }
 .hc-big-button-search-width { width:135px; }
 .hc-big-button-text-at-right-padding { padding-left: 15px; padding-right: 15px; padding-bottom: 15px; padding-top:0px; }
+.hc-options-padding-top { padding-top: 5px; }
 .hc-content-text
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
@@ -354,7 +355,7 @@ h1 {
 
 .hc-chat-left-container {
   position: absolute;
-  top: var(--hc-chat-title-height);
+  top: 0px;
   bottom: var(--hc-chat-bottom-height);
   left: var(--hc-chat-border-space);
   width: var(--hc-chat-left-space);
@@ -363,7 +364,7 @@ h1 {
 
 .hc-chat-right-container {
   position: absolute;
-  top: var(--hc-chat-title-height);
+  top: 0px;
   bottom: var(--hc-chat-bottom-height);
   right: 0px;
   width: var(--hc-chat-right-space);
@@ -372,7 +373,7 @@ h1 {
 
 .hc-chat-unique-container {
   position: absolute;
-  top: var(--hc-chat-title-height);
+  top: 0px;
   bottom: var(--hc-chat-bottom-height);
   margin-left: var(--hc-chat-unique-container-border-space);
   margin-right: var(--hc-chat-unique-container-border-space);
@@ -563,14 +564,6 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.hc-onTopRight
-{
-  position: fixed;
-  z-index: 3;
-  top: 15px;
-  right: var(--hc-var-right-space);
-}
-
 .hc-onTopRight-from-header
 {
   margin-top: 15px;
@@ -748,6 +741,13 @@ h1 {
     background:rgba(255,255,255,0.5);
 
     z-index: -3;
+}
+
+.hc-center-background-image
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hc-heart-background
