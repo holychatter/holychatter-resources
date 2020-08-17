@@ -31,11 +31,6 @@
 .hc-big-button-small-width { width:63px; }
 .hc-big-button-text-at-right-padding { padding: 15px; }
 
-.hc-margin-left-nav-collapsed { }
-@media screen and (max-width: 767px) {
-  .hc-margin-left-nav-collapsed { padding-left:15px; }
-}
-
 .hc-content-text-big
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
@@ -791,3 +786,97 @@ h1 {
 {
   background-color: white;
 }
+
+
+
+.hc-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.hc-nav > li {
+  position: relative;
+  display: block;
+}
+.hc-nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.hc-nav > li > a:hover,
+.hc-nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+.hc-nav > li.disabled > a {
+  color: #999;
+}
+.hc-nav > li.disabled > a:hover,
+.hc-nav > li.disabled > a:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.hc-nav .open > a,
+.hc-nav .open > a:hover,
+.hc-nav .open > a:focus {
+  background-color: #eee;
+  border-color: #428bca;
+}
+.hc-nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.hc-nav > li > a > img {
+  max-width: none;
+}
+
+
+.hc-navbar-nav {
+  margin: 7.5px -15px;
+}
+.hc-navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+.hc-navbar-nav {
+  float: left;
+  margin: 0;
+}
+.hc-navbar-nav > li {
+  float: left;
+}
+.hc-navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.hc-navbar-nav.navbar-right:last-child {
+  margin-right: -15px;
+}
+
+
+.hc-navbar-nav > li > a {
+  color: #777;
+}
+.hc-navbar-nav > li > a:hover,
+.hc-navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+}
+.hc-navbar-nav > .active > a,
+.hc-navbar-nav > .active > a:hover,
+.hc-navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.hc-navbar-nav > .disabled > a,
+.hc-navbar-nav > .disabled > a:hover,
+.hc-navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+
