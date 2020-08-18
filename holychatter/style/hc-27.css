@@ -557,6 +557,10 @@ h1 {
   text-align: center;
 }
 
+.hc-text-align-left {
+  text-align: left;
+}
+
 .hc-centered {
   position: fixed;
   top: 50%;
