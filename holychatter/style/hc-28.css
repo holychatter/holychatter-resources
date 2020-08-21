@@ -593,7 +593,7 @@ h1 {
 }
 
 .hc-writing-box {
-  background-image:url(/resources/holychatter/images/writing.gif);
+  background-image:url(/resources/holychatter/images/three_dots.gif);
   background-position: top 0px left 0px;
   background-size: 60px 43px;
   background-repeat: no-repeat;
@@ -690,7 +690,7 @@ h1 {
 }
 
 .hc-search-btn {
-  background-image:url('/resources/holychatter/images/search.png');
+  background-image:url('/resources/holychatter/images/magnifying_glass.png');
   background-size: 28px 19px;
   background-repeat: no-repeat;
   background-position: center center;
