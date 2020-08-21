@@ -15,7 +15,6 @@
 .hc-top-bar-sides-css { width: 15%; padding-left:30px; padding-right:30px; }
 .hc-top-bar-center-css { width: 70%; padding-left:30px; padding-right:30px; }
 .hc-width-default-inside-bubble { width: 560px; }
-.hc-default-content-table-wrapper { width: 80%; margin-left: 10%; }
 .hc-main-logo-height { height: 55px; }
 .hc-main-banner-height { height: 500px; }
 .hc-left-a-search { padding-left: 250px; }
@@ -29,6 +28,8 @@
 .hc-big-button-search-width { width:243px; }
 .hc-big-button-small-height { height:75px; }
 .hc-big-button-small-width { width:63px; }
+.hc-big-button-source-height { height:150px; }
+.hc-big-button-source-width { width:150px; }
 .hc-big-button-text-at-right-padding { padding: 15px; }
 
 .hc-content-text-big
@@ -274,7 +275,6 @@
 .hc-long-screen {
     display: none;
   }
-.hc-default-content-table-wrapper { width: 100%; margin-left: 0%; }
 .hc-message-viewer-width { width: 100%; }
 .hc-reference-viewer-width { width: 0%; }
 }
