@@ -354,12 +354,12 @@ h1 {
 
 
 .hc-chat-left-container {
-  position: absolute;
+  position: fixed;
   top: 0px;
-  bottom: var(--hc-chat-bottom-height);
+  bottom: 0px;
   left: var(--hc-chat-border-space);
   width: var(--hc-chat-left-space);
-  overflow: none;
+  overflow: auto;
 }
 
 .hc-chat-right-container {
