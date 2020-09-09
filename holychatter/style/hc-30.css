@@ -757,7 +757,7 @@ h1 {
 .hc-heart-background
 {
   background-image: url('/resources/holychatter/images/heart.png');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
   background-position: top 0px left -130px;
 }
