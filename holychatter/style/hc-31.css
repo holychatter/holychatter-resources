@@ -16,7 +16,7 @@
 .hc-top-bar-center-css { width: 70%; padding-left:30px; padding-right:30px; }
 .hc-width-default-inside-bubble { width: 560px; }
 .hc-main-logo-height { height: 50px; }
-.hc-main-banner-height { height: 500px; }
+.hc-main-banner-height { height: 300px; }
 .hc-left-a-search { padding-left: 250px; }
 .hc-options-padding-top { padding-top: 13px; }
 
@@ -230,7 +230,7 @@
 .hc-top-bar-sides-css { width: 50%; padding-left:30px; padding-right:30px; }
 .hc-top-bar-center-css { width: 0%; padding-left:0px; padding-right:0px; }
 .hc-main-logo-height { height: 40px; }
-.hc-main-banner-height { height: 250px; }
+.hc-main-banner-height { height: 50px; }
 .hc-left-a-search { padding-left: 10px; }
 .hc-big-button-search-height { height:75px; }
 .hc-big-button-search-width { width:135px; }
@@ -251,12 +251,12 @@
 
 @media screen and (min-width: 851px) and (max-width: 1100px) {
 .hc-main-logo-height { height: 45px; }
-.hc-main-banner-height { height: 300px; }
+.hc-main-banner-height { height: 100px; }
 .hc-left-a-search { padding-left: 100px; }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1450px) {
-.hc-main-banner-height { height: 400px; }
+.hc-main-banner-height { height: 200px; }
 }
 
 @media screen and (min-width: 851px) {
