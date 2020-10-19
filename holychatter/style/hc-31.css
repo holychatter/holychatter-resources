@@ -757,6 +757,13 @@ h1 {
   background-position: top 0px left -130px;
 }
 
+.hc-banner-with-images-background
+{
+  background-image: url('/resources/holychatter/images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hc-banner-background
 {
   background-image: url('/resources/holychatter/images/banner_background.png');
