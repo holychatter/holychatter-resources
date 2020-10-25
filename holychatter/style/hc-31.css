@@ -787,6 +787,62 @@ h1 {
   background-position: center;
 }
 
+.hc-banner-prieres
+{
+  background-image: url('/resources/holychatter/images/prieres.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hc-banner-prayers
+{
+  background-image: url('/resources/holychatter/images/prayers.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hc-banner-livres
+{
+  background-image: url('/resources/holychatter/images/livres.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hc-banner-books
+{
+  background-image: url('/resources/holychatter/images/books.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hc-banner-sources
+{
+  background-image: url('/resources/holychatter/images/sources.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hc-banner-pour_qui
+{
+  background-image: url('/resources/holychatter/images/pour_qui.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hc-banner-for_who
+{
+  background-image: url('/resources/holychatter/images/for_who.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
 .hc-white-background
 {
