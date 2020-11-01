@@ -54,84 +54,84 @@
 
 @media screen and (min-width: 1451px) {
 .hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 950px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1401px)  and (max-width: 1450px) {
 .hc-width-content-with-refs { width: 800px; }
-.hc-width-content-without-refs { width: 950px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1351px)  and (max-width: 1400px) {
 .hc-width-content-with-refs { width: 750px; }
-.hc-width-content-without-refs { width: 950px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1301px)  and (max-width: 1350px) {
 .hc-width-content-with-refs { width: 700px; }
-.hc-width-content-without-refs { width: 950px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1251px) and (max-width: 1300px) {
 .hc-width-content-with-refs { width: 650px; }
-.hc-width-content-without-refs { width: 950px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1250px) {
 .hc-width-content-with-refs { width: 600px; }
-.hc-width-content-without-refs { width: 950px; }
+.hc-width-content-without-refs { width: 700px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1151px) and (max-width: 1200px) {
 .hc-width-content-with-refs { width: 550px; }
-.hc-width-content-without-refs { width: 900px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1101px) and (max-width: 1150px) {
 .hc-width-content-with-refs { width: 500px; }
-.hc-width-content-without-refs { width: 850px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1051px) and (max-width: 1100px) {
 .hc-width-content-with-refs { width: 1000px; }
-.hc-width-content-without-refs { width: 1000px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1050px) {
 .hc-width-content-with-refs { width: 950px; }
-.hc-width-content-without-refs { width: 950px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 951px) and (max-width: 1000px) {
 .hc-width-content-with-refs { width: 900px; }
-.hc-width-content-without-refs { width: 900px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
 
 @media screen and (min-width: 901px) and (max-width: 950px) {
 .hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 850px; }
+.hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
 .hc-width-chat-recommendation-max-width { max-width: 710px; }
 }
