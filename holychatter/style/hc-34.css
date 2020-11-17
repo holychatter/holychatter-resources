@@ -805,13 +805,6 @@ h1 {
   background-position: center center;
 }
 
-.hc-send-btn {
-  background-image:url('/resources/holychatter/images/send.png');
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 .hc-padding {
   padding: 20px;
 }
@@ -861,14 +854,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.hc-heart-background
-{
-  background-image: url('/resources/holychatter/images/heart.png');
-  background-repeat: repeat-x;
-  background-size: cover;
-  background-position: top 0px left -130px;
 }
 
 .hc-banner-with-images-background
@@ -958,6 +943,13 @@ h1 {
   background-position: center;
 }
 
+.hc-heart-background
+{
+  background-image: url('/resources/holychatter-chat-window/images/heart.png');
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: top 0px left -130px;
+}
 
 .hc-white-background
 {
