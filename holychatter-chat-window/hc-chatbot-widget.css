@@ -6,8 +6,8 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  height: 90px;
-  width: 90px;
+  height: 80px;
+  width: 80px;
 }
 
 /* The popup chat - hidden by default */
@@ -15,8 +15,9 @@
   display: none;
   position: fixed;
   right: 30px;
-  bottom: 130px;
+  bottom: 120px;
   border: 1px solid #cccccc;
+  border-radius: 10px;
   z-index: 9;
   height: 400px;
   width: 310px;
@@ -35,7 +36,7 @@
   background-image: url('/resources/holychatter-chat-window/images/heart.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top 50px left -80px;
 }
 
 
