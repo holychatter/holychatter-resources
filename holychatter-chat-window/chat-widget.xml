@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messages>
+  <message id="main-chat-button">
+    <img id="hc-chat-button-id" class="hccw-open-button" onclick="openCloseForm()" src="/resources/holychatter-chat-window/images/chat_button.png"/>
+
+    <div class="hccw-chat-popup hccw-chat-heart-bg" id="myForm">
+      <form class="form-container">
+      <div style="background-color:green; height:63px; padding:10px; border-radius: 10px 10px 0px 0px;">
+        <table>
+        <tr>
+          <th>
+            <img src="/resources/holychatter-chat-window/images/theophile.png" width="45" height="45" />
+          </th>
+          <th width="100%" style="font-weight: normal; padding-left:15px; color:white;">
+            <b>Théophile</b><br/><small>Chatbot chrétien</small>
+          </th>
+          <th style="padding-bottom:20px;">
+            <a href="/fr/chatbot?startAfterIntro"><img src="/resources/holychatter-chat-window/images/fullscreen.png" width="20" height="20" /></a>
+          </th>
+          <th style="padding-left:15px;padding-right:5px;padding-bottom:20px;">
+            <img class="hc-cursor-pointer" src="/resources/holychatter-chat-window/images/cross.png" onclick="closeForm()" width="20" height="20" />
+          </th>
+        </tr>
+        </table>
+      </div>
+      <div style="margin-left: 1%; margin-right: 1%;" id="chat-panel">
+        <table style="margin-top:15px;">
+        <tr>
+          <th>
+            <div class="hc-logo-hc-triangle-box" style="padding-left:14px; padding-right:10px;">
+              <div class="hc-bubble hc-answer-text" style="padding:10px; background-color:#f1f0f0; min-height: 50px; max-width: 730px; font-weight: normal;">
+Bonjour je suis Théophile.<br/><b>Je vous souhaite la bienvenue !</b> <img src="/resources/emojis/happy.png" width="20" height="20" /><br/>
+Je suis à votre disposition pour discuter de la foi chrétienne avec vous.<br/>
+Etes-vous prêt ?
+              </div>
+            </div>
+          </th>
+        </tr>
+        </table>
+
+        <table style="margin-top:15px;">
+        <tr>
+          <th>
+            <div class="hc-white-background hc-width-chat-recommendation-max-width hc-cursor-pointer" style="border: 1px solid #cccccc; margin-left:14px; padding:10px; font-weight: normal;">
+<a href="/fr/chatbot?startAfterIntro=Ok c'est parti !">Ok c'est parti !</a>
+            </div>
+          </th>
+        </tr>
+        </table>
+
+        <textarea id="hc-textarea-widget" class="form-control" rows="1" placeholder="Écrire une phrase" style="resize: none; height:40px; width:87%; position:absolute; left:0px; right:50px; bottom:0px; border-radius: 0px 0px 0px 10px;" onkeypress="onKeyPressedOnChatTextArea(event);"></textarea> <div class="hccw-send-btn btn-primary hc-cursor-pointer" style="height:40px; width:40px; position:absolute; right:0px; bottom:0px; border-radius: 0px 0px 10px 0px;" onclick="onClickChatButtonValidation()"></div>
+      </div>
+      </form>
+    </div>
+
+    <script>
+var alreadyOpen = false;
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+  document.getElementById("hc-chat-button-id").src = "/resources/holychatter-chat-window/images/chat_button.png";
+}
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+  document.getElementById("hc-chat-button-id").src = "/resources/holychatter-chat-window/images/close_chat_button.png";
+  alreadyOpen = true;
+}
+
+function openCloseForm() {
+  if (document.getElementById("myForm").style.display == "block") {
+    closeForm();  
+  } else {
+    openForm();
+  }
+}
+
+function scrollDown() {
+  document.getElementById("chat-panel").scrollTop += document.getElementById("chat-panel").scrollHeight;
+}
+
+function onKeyPressedOnChatTextArea(event) {
+    var key = window.event.keyCode;
+    // If the user has pressed enter
+    if (key === 13) {
+        event.preventDefault();
+        location.href = "/fr/chatbot?startAfterIntro=" + document.getElementById("hc-textarea-widget").value;
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+function onClickChatButtonValidation() {
+    location.href = "/fr/chatbot?startAfterIntro=" + document.getElementById("hc-textarea-widget").value;
+}
+
+setTimeout(function(){
+  if (!alreadyOpen) {
+    openCloseForm();
+  }
+}, 10000);
+
+    </script>
+  </message>
+</messages>
+
