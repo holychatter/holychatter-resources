@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <messages>
   <message id="main-chat-button">
-    <img id="hc-chat-button-id" class="hccw-open-button" onclick="openCloseForm()" src="/resources/holychatter-chat-window/images/chat_button.png"/>
+    <a href="/fr/chatbot"><img class="hc-very-short-screen hccw-open-button" src="/resources/holychatter-chat-window/images/chat_button.png"/></a>
+    <img id="hc-chat-button-id" class="hc-not-very-short-screen hccw-open-button" onclick="openCloseForm()" src="/resources/holychatter-chat-window/images/chat_button.png"/>
 
     <div class="hccw-chat-popup hccw-chat-heart-bg" id="myForm">
       <form class="form-container">
@@ -42,7 +43,7 @@ Etes-vous prêt ?
         <tr>
           <th>
             <div class="hc-white-background hc-width-chat-recommendation-max-width hc-cursor-pointer" style="border: 1px solid #cccccc; margin-left:14px; padding:10px; font-weight: normal;">
-<a href="/fr/chatbot?startAfterIntro=Ok c'est parti !">Ok c'est parti !</a>
+<a href="/fr/chatbot?startAfterIntro=Oui, allons-y !">Oui, allons-y !</a>
             </div>
           </th>
         </tr>
@@ -131,11 +132,13 @@ function onClickChatButtonValidation() {
 
 
 if (areCookiesEnabled()) {
-  setTimeout(function(){
-    if (!alreadyOpen) {
-      openCloseForm();
-    }
-  }, 10000);
+  if (matchMedia('only screen and (min-width: 851px)').matches) {
+    setTimeout(function(){
+      if (!alreadyOpen) {
+        openCloseForm();
+      }
+    }, 10000);
+  }
 }
   </script>
 
