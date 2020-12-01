@@ -51,63 +51,8 @@
   font-weight:400;
 }
 
-@media screen and (min-width: 1951px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
 
-@media screen and (min-width: 1901px)  and (max-width: 1950px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
-
-@media screen and (min-width: 1851px)  and (max-width: 1900px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
-
-@media screen and (min-width: 1801px)  and (max-width: 1850px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
-
-@media screen and (min-width: 1751px)  and (max-width: 1800px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
-
-@media screen and (min-width: 1701px)  and (max-width: 1750px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
-
-@media screen and (min-width: 1651px)  and (max-width: 1700px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
-
-@media screen and (min-width: 1601px)  and (max-width: 1650px) {
-.hc-width-content-with-refs { width: 850px; }
-.hc-width-content-without-refs { width: 800px; }
-.hc-width-chat-inside-bubble { width: 710px; }
-.hc-width-chat-recommendation-max-width { max-width: 710px; }
-}
-
-@media screen and (min-width: 1551px)  and (max-width: 1600px) {
+@media screen and (min-width: 1551px) {
 .hc-width-content-with-refs { width: 850px; }
 .hc-width-content-without-refs { width: 800px; }
 .hc-width-chat-inside-bubble { width: 710px; }
