@@ -1,7 +1,7 @@
 
 paddingVal=15
-min_width=270
-max_width=320
+min_width=150
+max_width=150
 
 def widthOfFolders(nbOfFolders, withOfAFolder):
   return withOfAFolder*nbOfFolders + paddingVal*nbOfFolders*2 + paddingVal*2
@@ -22,11 +22,11 @@ def maxFolderWidth(winowSize, nbOfFolders):
   return res-1
 
 def getHeight(width):
-  return int(round((width*150.)/min_width))
+  return width
 
 
 
-f= open("categories.css","w")
+f= open("sources.css","w")
 
 winowSize=1951
 step=25
@@ -44,16 +44,12 @@ while True:
     f.write("@media only screen and (max-width: 350px) {\n")
   else:
     f.write("@media screen and (min-width: " + str(winowSize) + "px)  and (max-width: " + str(winowSize+step-1) + "px) {\n")
-  f.write(":root {\n")
-  f.write("  --hc-val-big-button-normal-height: " + str(height) + "px;\n")
-  f.write("  --hc-val-big-button-normal-width: " + str(width) + "px;\n")
-  f.write("}\n")
-  f.write(".hc-categories-left-margin { margin-left: " + str(margin) + "px; }\n")
+  f.write(".hc-sources-left-margin { margin-left: " + str(margin) + "px; }\n")
   f.write("}\n\n")
   if winowSize == 301:
     break
   winowSize-=step
 
-f.write(".hc-big-button-normal-height { height:var(--hc-val-big-button-normal-height); }\n")
-f.write(".hc-big-button-normal-width { width:var(--hc-val-big-button-normal-width); }\n")
+f.write(".hc-big-button-source-height { height:150px; }\n")
+f.write(".hc-big-button-source-width { width:150px; }\n")
 f.close()
