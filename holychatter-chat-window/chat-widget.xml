@@ -10,10 +10,10 @@
         <table>
         <tr>
           <th>
-            <img src="/resources/holychatter-chat-window/images/theophile.png" width="45" height="45" />
+            <img src="/resources/holychatter-chat-window/images/cross_holy_chatter.png" width="45" height="45" />
           </th>
           <th width="100%" style="font-weight: normal; padding-left:15px; color:white;">
-            <b>Théophile</b><br/><small>Chatbot chrétien</small>
+            <b>Théophile</b><br/><small>Holy Chatter (chatbot chrétien)</small>
           </th>
           <th style="padding-bottom:20px;">
             <a href="/fr/chatbot?startAfterIntro"><img src="/resources/holychatter-chat-window/images/fullscreen.png" width="20" height="20" /></a>
@@ -90,11 +90,12 @@ var alreadyOpen = false;
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById("hc-chat-button-id").src = "/resources/holychatter-chat-window/images/chat_button.png";
+  document.getElementById("hc-chat-button-id").style.display = "inline";
 }
 
 function openForm() {
   document.getElementById("myForm").style.display = "block";
-  document.getElementById("hc-chat-button-id").src = "/resources/holychatter-chat-window/images/close_chat_button.png";
+  document.getElementById("hc-chat-button-id").style.display = "none";
   alreadyOpen = true;
   if (areCookiesEnabled()) {
     setCookie("hc-chat-display", "true", 1)

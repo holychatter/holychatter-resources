@@ -6,8 +6,8 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 196px;
 }
 
 /* The popup chat - hidden by default */
@@ -15,7 +15,7 @@
   display: none;
   position: fixed;
   right: 30px;
-  bottom: 120px;
+  bottom: 30px;
   border: 1px solid #cccccc;
   border-radius: 10px;
   z-index: 9;
