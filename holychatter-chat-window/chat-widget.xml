@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <messages>
   <message id="main-chat-button">
-    <a href="/fr/chatbot"><img class="hc-very-short-screen hccw-open-button" src="/resources/holychatter-chat-window/images/chat_button.png"/></a>
-    <img id="hc-chat-button-id" class="hc-not-very-short-screen hccw-open-button" onclick="openCloseForm()" src="/resources/holychatter-chat-window/images/chat_button.png"/>
+    <a href="/fr/chatbot"><img class="hc-very-short-screen hccw-open-button" src="/resources/holychatter-chat-window/images/chat_button_with_logo.png"/></a>
+    <img id="hc-chat-button-id" class="hc-not-very-short-screen hccw-open-button" onclick="openCloseForm()" src="/resources/holychatter-chat-window/images/chat_button_with_logo.png"/>
 
     <div class="hccw-chat-popup hccw-chat-heart-bg" id="myForm">
       <form class="form-container">
@@ -89,7 +89,7 @@ function areCookiesEnabled() {
 var alreadyOpen = false;
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
-  document.getElementById("hc-chat-button-id").src = "/resources/holychatter-chat-window/images/chat_button.png";
+  document.getElementById("hc-chat-button-id").src = "/resources/holychatter-chat-window/images/chat_button_with_logo.png";
   document.getElementById("hc-chat-button-id").style.display = "inline";
 }
 
