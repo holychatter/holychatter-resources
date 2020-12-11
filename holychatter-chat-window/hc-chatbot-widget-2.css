@@ -12,17 +12,19 @@
 
 /* The popup chat - hidden by default */
 .hccw-chat-popup {
-  display: none;
   position: fixed;
   right: 30px;
-  bottom: 30px;
-  border: 1px solid #cccccc;
-  border-radius: 10px;
+  bottom: 100px;
   z-index: 9;
-  height: 400px;
-  width: 310px;
 }
 
+
+.hccw-chat-popup-close-button {
+  position: fixed;
+  right: 30px;
+  bottom: 207px;
+  z-index: 9;
+}
 
 .hccw-send-btn {
   background-image:url('/resources/holychatter-chat-window/images/send.png');
@@ -41,3 +43,17 @@
 
 
 
+.hccw-logo-hc-triangle-box-bottom-right {
+  background-image:url('/resources/holychatter-chat-window/images/bot_withouttriangle_bottom_right.png');
+  background-position: right 50px bottom 0px;
+  background-size: 50px 24px;
+  background-repeat: no-repeat;
+}
+
+.hccw-bubble {
+  border-radius: 10px;
+}
+
+.hccw-answer-text {
+  font-size: 15px;
+}
