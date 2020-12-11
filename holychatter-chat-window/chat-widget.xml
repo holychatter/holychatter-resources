@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <messages>
   <message id="main-chat-button">
-    <a href="/fr/chatbot"><img class="hccw-open-button" onmouseover="openThenCloseForm()" src="/resources/holychatter-chat-window/images/chat_button_with_logo.png"/></a>
+    <!-- Button at the bottom right to start the chat -->
+    <a href="/fr/chatbot"><img style="position: fixed; bottom: 30px; right: 30px; height: 70px; width: 196px; z-index: 9;" onmouseover="openThenCloseForm()" src="/resources/holychatter-chat-window/images/chat_button_with_logo.png"/></a>
 
-     <div style="display: none;" id="myForm">
-            <img class="hccw-chat-popup-close-button hc-cursor-pointer" src="/resources/holychatter-chat-window/images/cross_black.png" onclick="closeForm()" width="20" height="20" />
-
-            <div class="hccw-chat-popup hccw-logo-hc-triangle-box-bottom-right" style="padding-bottom:14px;">
-              <div class="hccw-bubble hccw-answer-text" style="padding:10px; background-color:#f1f0f0; min-height: 50px; max-width: 730px; font-weight: normal;">
-Bonjour je suis le chatbot Théophile. <img src="/resources/emojis/smile.png" width="20" height="20" /><br/>
+    <!-- Buble and close button that can pop up when the mouse is over or after a delay -->
+    <div style="display: none;" id="chat-buble-container-id">
+      <img style="position: fixed; cursor: pointer; right: 30px; bottom: 210px; z-index: 9;" src="/resources/holychatter-chat-window/images/cross_black.png" onclick="closeForm()" width="20" height="20" />
+      <div style="position: fixed; right: 30px; bottom: 103px; z-index: 9; background-image:url('/resources/holychatter-chat-window/images/bot_withouttriangle_bottom_right.png'); background-position: right 55px bottom 0px; background-size: 50px 24px; background-repeat: no-repeat; padding-bottom:14px;">
+        <div style="border-radius: 10px; font-size: 15px; padding:10px; background-color:#f1f0f0; min-height: 50px; max-width: 730px; font-weight: normal;">
+Bonjour je suis le chatbot Théophile. <img src="/resources/holychatter-chat-window/images/smile.png" width="20" height="20" /><br/>
 Si vous voulez discuter sur la foi chrétienne,<br/>
 vous pouvez cliquer sur le boutton ci-dessous.
-              </div>
-            </div>
-     </div>
-
+        </div>
+      </div>
+    </div>
     <script>
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
@@ -50,11 +50,11 @@ function areCookiesEnabled() {
 var alreadyOpen = false;
 var nbOfTimeOpen = 0;
 function closeForm() {
-  document.getElementById("myForm").style.display = "none";
+  document.getElementById("chat-buble-container-id").style.display = "none";
 }
 
 function openForm() {
-  document.getElementById("myForm").style.display = "block";
+  document.getElementById("chat-buble-container-id").style.display = "block";
   alreadyOpen = true;
   if (areCookiesEnabled()) {
     setCookie("hc-chat-display", "true", 1)
@@ -72,28 +72,6 @@ function openThenCloseForm() {
   }, 5000);
 }
 
-function scrollDown() {
-  document.getElementById("chat-panel").scrollTop += document.getElementById("chat-panel").scrollHeight;
-}
-
-function onKeyPressedOnChatTextArea(event) {
-    var key = window.event.keyCode;
-    // If the user has pressed enter
-    if (key === 13) {
-        event.preventDefault();
-        location.href = "/fr/chatbot?startAfterIntro=" + document.getElementById("hc-textarea-widget").value;
-        return false;
-    }
-    else {
-        return true;
-    }
-}
-
-function onClickChatButtonValidation() {
-    location.href = "/fr/chatbot?startAfterIntro=" + document.getElementById("hc-textarea-widget").value;
-}
-
-
 if (areCookiesEnabled()) {
   if (matchMedia('only screen and (min-width: 851px)').matches) {
     setTimeout(function(){
@@ -103,161 +81,7 @@ if (areCookiesEnabled()) {
     }, 10000);
   }
 }
-  </script>
-
+    </script>
   </message>
-
-
-
-
-
-
-
-
-  <message id="main-chat-button-old">
-    <a href="/fr/chatbot"><img class="hc-very-short-screen hccw-open-button" src="/resources/holychatter-chat-window/images/chat_button_with_logo.png"/></a>
-    <img id="hc-chat-button-id" class="hc-not-very-short-screen hccw-open-button" onclick="openCloseForm()" src="/resources/holychatter-chat-window/images/chat_button_with_logo.png"/>
-
-    <div class="hccw-chat-popup hccw-chat-heart-bg" id="myForm">
-      <form class="form-container">
-      <div style="background-color:green; height:63px; padding:10px; border-radius: 10px 10px 0px 0px;">
-        <table>
-        <tr>
-          <th>
-            <img src="/resources/holychatter-chat-window/images/cross_holy_chatter.png" width="45" height="45" />
-          </th>
-          <th width="100%" style="font-weight: normal; padding-left:15px; color:white;">
-            <b>Théophile</b><br/><small>Holy Chatter (chatbot chrétien)</small>
-          </th>
-          <th style="padding-bottom:20px;">
-            <a href="/fr/chatbot?startAfterIntro"><img src="/resources/holychatter-chat-window/images/fullscreen.png" width="20" height="20" /></a>
-          </th>
-          <th style="padding-left:15px;padding-right:5px;padding-bottom:20px;">
-            <img class="hc-cursor-pointer" src="/resources/holychatter-chat-window/images/cross.png" onclick="closeForm()" width="20" height="20" />
-          </th>
-        </tr>
-        </table>
-      </div>
-      <div style="margin-left: 1%; margin-right: 1%;" id="chat-panel">
-        <table style="margin-top:15px;">
-        <tr>
-          <th>
-            <div class="hc-logo-hc-triangle-box" style="padding-left:14px; padding-right:10px;">
-              <div class="hc-bubble hc-answer-text" style="padding:10px; background-color:#f1f0f0; min-height: 50px; max-width: 730px; font-weight: normal;">
-Bonjour je suis Théophile.<br/><b>Je vous souhaite la bienvenue !</b> <img src="/resources/emojis/happy.png" width="20" height="20" /><br/>
-Je suis à votre disposition pour discuter de la foi chrétienne avec vous.<br/>
-Etes-vous prêt ?
-              </div>
-            </div>
-          </th>
-        </tr>
-        </table>
-
-        <table style="margin-top:15px;">
-        <tr>
-          <th>
-            <div class="hc-white-background hc-width-chat-recommendation-max-width hc-cursor-pointer" style="border: 1px solid #cccccc; margin-left:14px; padding:10px; font-weight: normal;">
-<a href="/fr/chatbot?startAfterIntro=Oui, allons-y !">Oui, allons-y !</a>
-            </div>
-          </th>
-        </tr>
-        </table>
-
-        <textarea id="hc-textarea-widget" class="form-control" rows="1" placeholder="Écrire une phrase" style="resize: none; height:40px; width:87%; position:absolute; left:0px; right:50px; bottom:0px; border-radius: 0px 0px 0px 10px;" onkeypress="onKeyPressedOnChatTextArea(event);"></textarea> <div class="hccw-send-btn btn-primary hc-cursor-pointer" style="height:40px; width:40px; position:absolute; right:0px; bottom:0px; border-radius: 0px 0px 10px 0px;" onclick="onClickChatButtonValidation()"></div>
-      </div>
-      </form>
-    </div>
-
-    <script>
-function setCookie(cname, cvalue, exdays) {
-  var d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  var expires = "expires="+ d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-  var name = cname + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-
-  for (var i = 0; i != ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-
-function areCookiesEnabled() {
-  if (getCookie("cookiesAllowed") == "true") {
-    return getCookie("hc-chat-display") == "";
-  }
-  return false;
-}
-
-var alreadyOpen = false;
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-  document.getElementById("hc-chat-button-id").src = "/resources/holychatter-chat-window/images/chat_button_with_logo.png";
-  document.getElementById("hc-chat-button-id").style.display = "inline";
-}
-
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-  document.getElementById("hc-chat-button-id").style.display = "none";
-  alreadyOpen = true;
-  if (areCookiesEnabled()) {
-    setCookie("hc-chat-display", "true", 1)
-  }
-}
-
-function openCloseForm() {
-  if (document.getElementById("myForm").style.display == "block") {
-    closeForm();  
-  } else {
-    openForm();
-  }
-}
-
-function scrollDown() {
-  document.getElementById("chat-panel").scrollTop += document.getElementById("chat-panel").scrollHeight;
-}
-
-function onKeyPressedOnChatTextArea(event) {
-    var key = window.event.keyCode;
-    // If the user has pressed enter
-    if (key === 13) {
-        event.preventDefault();
-        location.href = "/fr/chatbot?startAfterIntro=" + document.getElementById("hc-textarea-widget").value;
-        return false;
-    }
-    else {
-        return true;
-    }
-}
-
-function onClickChatButtonValidation() {
-    location.href = "/fr/chatbot?startAfterIntro=" + document.getElementById("hc-textarea-widget").value;
-}
-
-
-if (areCookiesEnabled()) {
-  if (matchMedia('only screen and (min-width: 851px)').matches) {
-    setTimeout(function(){
-      if (!alreadyOpen) {
-        openCloseForm();
-      }
-    }, 10000);
-  }
-}
-  </script>
-
-  </message>
-
 </messages>
 

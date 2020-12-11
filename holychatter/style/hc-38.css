@@ -593,6 +593,13 @@ h1 {
   font-size: 15px;
 }
 
+.hc-send-btn {
+  background-image:url('/resources/holychatter/images/send.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .hc-tests-img-bkg {
   background-image: url("/resources/holychatter/icons/check_button.png");
   background-repeat: no-repeat;
@@ -693,7 +700,7 @@ h1 {
 
 .hc-heart-background
 {
-  background-image: url('/resources/holychatter-chat-window/images/heart.png');
+  background-image: url('/resources/holychatter/images/heart.png');
   background-repeat: repeat-x;
   background-size: cover;
   background-position: top 0px left -130px;
