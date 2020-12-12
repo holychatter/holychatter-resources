@@ -41,7 +41,7 @@ while True:
   if winowSize == 1951:
     f.write("@media screen and (min-width: " + str(winowSize) + "px) {\n")
   elif winowSize == 301:
-    f.write("@media only screen and (max-width: 350px) {\n")
+    f.write("@media only screen and (max-width: " + str(winowSize+step-1) + "px) {\n")
   else:
     f.write("@media screen and (min-width: " + str(winowSize) + "px)  and (max-width: " + str(winowSize+step-1) + "px) {\n")
   f.write(".hc-sources-left-margin { margin-left: " + str(margin) + "px; }\n")

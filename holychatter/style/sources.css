@@ -262,7 +262,7 @@
 .hc-sources-left-margin { margin-left: 73px; }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 325px) {
 .hc-sources-left-margin { margin-left: 61px; }
 }
 

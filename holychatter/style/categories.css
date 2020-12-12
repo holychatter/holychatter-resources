@@ -526,7 +526,7 @@
 .hc-categories-left-margin { margin-left: 13px; }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 325px) {
 :root {
   --hc-val-big-button-normal-height: 150px;
   --hc-val-big-button-normal-width: 270px;
