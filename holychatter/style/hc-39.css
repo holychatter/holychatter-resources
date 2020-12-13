@@ -14,15 +14,6 @@
 }
 
 
-@font-face {font-family: "Playlist-Script";
-  src: url("font/playlist-script/1fed4454352f201d52b65ca5480afb2d.eot"); /* IE9*/
-  src: url("font/playlist-script/1fed4454352f201d52b65ca5480afb2d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("font/playlist-script/1fed4454352f201d52b65ca5480afb2d.woff2") format("woff2"), /* chrome、firefox */
-  url("font/playlist-script/1fed4454352f201d52b65ca5480afb2d.woff") format("woff"), /* chrome、firefox */
-  url("font/playlist-script/1fed4454352f201d52b65ca5480afb2d.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("font/playlist-script/1fed4454352f201d52b65ca5480afb2d.svg#Playlist-Script") format("svg"); /* iOS 4.1- */
-}
-
 @font-face {font-family: "Harlow Solid Italic Italic";
   src: url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.eot"); /* IE9*/
   src: url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
