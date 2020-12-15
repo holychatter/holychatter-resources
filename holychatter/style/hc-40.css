@@ -23,6 +23,10 @@
   url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.svg#Harlow Solid Italic Italic") format("svg"); /* iOS 4.1- */
 }
 
+@font-face {
+    font-family: 'lobster';
+    src: url('font/lobster/Lobster-Regular.ttf');
+}
 
 .hc-top-bar-sides-css { width: 15%; padding-left:37px; padding-right:37px; }
 .hc-top-bar-center-css { width: 70%; padding-left:30px; padding-right:30px; }
@@ -269,7 +273,7 @@ html, body {
 
 
 h1 {
-  font-family: "Harlow Solid Italic Italic" !important;
+  font-family: "lobster" !important;
   font-weight: bold;
   text-align: center;
   padding-left: 10px;
@@ -277,7 +281,7 @@ h1 {
 }
 
 .hc-h1-main-title {
-  font-family: "Harlow Solid Italic Italic" !important;
+  font-family: "lobster" !important;
   font-size: var(--hc-h1-main-font-size);
   font-style: normal;
   color: #ff5757;
