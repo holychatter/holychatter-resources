@@ -14,15 +14,6 @@
 }
 
 
-@font-face {font-family: "Harlow Solid Italic Italic";
-  src: url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.eot"); /* IE9*/
-  src: url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.woff2") format("woff2"), /* chrome、firefox */
-  url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.woff") format("woff"), /* chrome、firefox */
-  url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("font/harlow-solid-italic-italic/cfa5d186573233bc80be624c35a4702b.svg#Harlow Solid Italic Italic") format("svg"); /* iOS 4.1- */
-}
-
 @font-face {
     font-family: 'lobster';
     src: url('font/lobster/Lobster-Regular.ttf');
