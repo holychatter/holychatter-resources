@@ -22,7 +22,7 @@
 .hc-top-bar-sides-css { width: 15%; padding-left:37px; padding-right:37px; }
 .hc-top-bar-center-css { width: 70%; padding-left:30px; padding-right:30px; }
 .hc-width-default-inside-bubble { width: 560px; }
-.hc-main-logo-height { height: 50px; }
+.hc-main-logo-height { height: 47px; }
 .hc-left-a-search { padding-left: 250px; }
 .hc-options-padding-top { padding-top: 13px; }
 
@@ -32,7 +32,7 @@
 .hc-big-button-search-width { width:243px; }
 .hc-big-button-small-height { height:75px; }
 .hc-big-button-small-width { width:63px; }
-.hc-big-button-text-at-right-padding { padding: 15px; }
+.hc-big-button-text-at-right-padding { padding-left: 15px; }
 
 
 .hc-content-text-big
@@ -192,7 +192,6 @@
 .hc-left-a-search { padding-left: 10px; }
 .hc-big-button-search-height { height:75px; }
 .hc-big-button-search-width { width:135px; }
-.hc-big-button-text-at-right-padding { padding-left: 15px; padding-right: 15px; padding-bottom: 15px; padding-top:0px; }
 .hc-options-padding-top { padding-top: 5px; }
 .hc-content-text
 {
@@ -221,7 +220,7 @@
   }
 :root {
   --hc-breadcrumb-height: 100px;
-  --hc-h1-main-font-size: 33px;
+  --hc-h1-main-font-size: 31px;
   --hc-h1-font-size: 25px;
 }
 .hc-edit-content-left-space-offset {
@@ -288,6 +287,8 @@ h1 {
   font-size: var(--hc-h1-main-font-size);
   font-style: normal;
   color: #ff5757;
+  margin-top: 21px;
+  margin-bottom: 21px;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
@@ -296,6 +297,8 @@ h1 {
 .hc-h1-not-main-title {
   color: #ff5757;
   font-size: var(--hc-h1-font-size);
+  margin-top: 10px;
+  padding-bottom: 11px;
 }
 
 
