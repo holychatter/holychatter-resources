@@ -243,6 +243,12 @@
   }
 .hc-message-viewer-width { width: 100%; }
 .hc-reference-viewer-width { width: 0%; }
+.hc-banner-with-images-background {
+  background-image: url('/resources/holychatter/images/banner_background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 }
 
 @media screen and (min-width: 1101px) {
@@ -254,6 +260,12 @@
   }
 .hc-message-viewer-width { width: 50%; }
 .hc-reference-viewer-width { width: 50%; }
+.hc-banner-with-images-background {
+  background-image: url('/resources/holychatter/images/portable_chat.png'), url('/resources/holychatter/images/portable_and_bible.png'), url('/resources/holychatter/images/banner_background.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, contain, cover;
+  background-position: left, right, center;
+}
 }
 
 html, body {
@@ -654,13 +666,6 @@ h1 {
   background-position: center;
 }
 
-.hc-banner-with-images-background
-{
-  background-image: url('/resources/holychatter/images/portable_chat.png'), url('/resources/holychatter/images/portable_and_bible.png'), url('/resources/holychatter/images/banner_background.png');
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: contain, contain, cover;
-  background-position: left, right, center;
-}
 
 .hc-heart-background
 {
