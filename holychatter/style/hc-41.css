@@ -6,7 +6,6 @@
   --hc-chat-border-space: 0%;
   --hc-chat-left-space: 30%;
   --hc-chat-right-space: 70%;
-  --hc-chat-unique-container-border-space: 15%;
 
   --hc-chat-bottom-height: 68px;
 
@@ -235,7 +234,6 @@
   --hc-folder-menu-width: 0px;
   --hc-chat-left-space: 0%;
   --hc-chat-right-space: 100%;
-  --hc-chat-unique-container-border-space: 1%;
 }
 .hc-long-screen {
     display: none;
@@ -366,17 +364,6 @@ h1 {
   overflow: none;
 }
 
-.hc-chat-unique-container {
-  position: absolute;
-  top: 0px;
-  bottom: var(--hc-chat-bottom-height);
-  margin-left: var(--hc-chat-unique-container-border-space);
-  margin-right: var(--hc-chat-unique-container-border-space);
-  right: 0px;
-  left: 0px;
-  overflow: none;
-}
-
 .hc-right-footer {
   position: fixed;
   right: 0px;
@@ -389,20 +376,6 @@ h1 {
   top: auto;
   height: var(--hc-chat-bottom-height);
 }
-
-.hc-centered-footer {
-  position: fixed;
-  right: 0px;
-  width: 100%;
-  bottom: 0px;
-  padding-left: var(--hc-chat-unique-container-border-space);
-  padding-right: var(--hc-chat-unique-container-border-space);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  top: auto;
-  height: var(--hc-chat-bottom-height);
-}
-
 
 .hc-chat-content {
   overflow: auto;
