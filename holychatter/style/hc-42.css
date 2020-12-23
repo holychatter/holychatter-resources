@@ -34,15 +34,6 @@
 .hc-big-button-text-at-right-padding { padding-left: 15px; }
 
 
-.hc-content-text-big
-{
-  font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
-  font-size:25px;
-  line-height:36px;
-  max-width:730px;
-  margin:0 auto;
-  font-weight:400;
-}
 .hc-content-text
 {
   font-family:Fira Sans,system-ui,-apple-system,BlinkMacSystemFont;
