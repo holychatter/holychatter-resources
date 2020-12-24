@@ -2,12 +2,12 @@
 <messages>
   <message id="main-chat-button">
     <!-- Button at the bottom right to start the chat -->
-    <a href="/fr/chatbot"><img style="position: fixed; bottom: 30px; right: 30px; height: 70px; width: 196px; z-index: 9;" onmouseover="openThenCloseBubbleForBigScreen()" src="/resources/holychatter-chat-window/images/chat_button_with_logo.png"/></a>
+    <a href="/fr/chatbot"><img style="position: fixed; bottom: 30px; right: 30px; height: 110px; width: 146px; z-index: 9;" onmouseover="openThenCloseBubbleForBigScreen()" src="/resources/holychatter-chat-window/images/chat-bubbles-button.png"/></a>
 
     <!-- Buble and close button that can pop up when the mouse is over or after a delay -->
     <div style="display: none;" id="chat-buble-container-id">
-      <img style="position: fixed; cursor: pointer; right: 30px; bottom: 210px; z-index: 9;" src="/resources/holychatter-chat-window/images/cross_black.png" onclick="closeBubble()" width="20" height="20" />
-      <div style="position: fixed; right: 30px; bottom: 103px; z-index: 9; background-image:url('/resources/holychatter-chat-window/images/bot_withouttriangle_bottom_right.png'); background-position: right 55px bottom 0px; background-size: 50px 24px; background-repeat: no-repeat; padding-bottom:14px;">
+      <img style="position: fixed; cursor: pointer; right: 30px; bottom: 237px; z-index: 9;" src="/resources/holychatter-chat-window/images/cross_black.png" onclick="closeBubble()" width="20" height="20" />
+      <div style="position: fixed; right: 30px; bottom: 130px; z-index: 9; background-image:url('/resources/holychatter-chat-window/images/bot_withouttriangle_bottom_right.png'); background-position: right 130px bottom 0px; background-size: 50px 24px; background-repeat: no-repeat; padding-bottom:14px;">
         <div style="border-radius: 10px; font-size: 15px; padding:10px; background-color:#f1f0f0; min-height: 50px; max-width: 730px; font-weight: normal;">
 Bonjour je suis le chatbot Théophile. <img src="/resources/holychatter-chat-window/images/smile.png" width="20" height="20" /><br/>
 Si vous voulez discuter sur la foi chrétienne,<br/>
