@@ -1,5 +1,5 @@
 
-f= open("video_size.css","w")
+f= open("video_size-1.css","w")
 
 winowSize=1951
 step=25
@@ -17,6 +17,10 @@ while True:
   else:
     f.write("@media screen and (min-width: " + str(winowSize) + "px)  and (max-width: " + str(winowSize+step-1) + "px) {\n")
   f.write(".hc-width-content-with-refs { width: " + str(videoSize) + "px; }\n")
+  if videoSize > 500:
+    f.write(".hc-width-image-with-refs { width: 500px; }\n")
+  else:
+    f.write(".hc-width-image-with-refs { width: " + str(videoSize) + "px; }\n")
   f.write("}\n\n")
   if winowSize == 301:
     break
